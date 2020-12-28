@@ -1,0 +1,58 @@
+{
+  "id": "2295372",
+  "name": "myIcon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7960177",
+      "name": "我的",
+      "font_class": "wode1",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "689261",
+      "name": "类目 品类 分类 类别.2",
+      "font_class": "leimupinleifenleileibie2",
+      "unicode": "e7f8",
+      "unicode_decimal": 59384
+    },
+    {
+      "icon_id": "902029",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1526235",
+      "name": "留言2",
+      "font_class": "liuyan-fill",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "2154944",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "7588113",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "14225367",
+      "name": "整理",
+      "font_class": "xingzhuangjiehe1",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    }
+  ]
+}

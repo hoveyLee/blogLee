@@ -1,32 +1,34 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <el-container>
+      <el-header class="header"><main-tabbar/></el-header>
+      <el-main><router-view/></el-main>
+      <vue-particles class="particles" />
+    </el-container>
   </div>
 </template>
 
+<script>
+  import MainTabbar from "@/components/common/mainTabber/MainTabbar";
+  export default {
+    name: "App",
+    components: {
+      MainTabbar
+    }
+  }
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  @import "~@/assets/icon/iconfont.css";
+  @import "~@/assets/css/normalize.css";
+  
+  .header {
+    border-bottom: #f2f2f2 1px solid;
+  }
+  .particles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
 </style>
